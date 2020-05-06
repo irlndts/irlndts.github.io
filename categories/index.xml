@@ -3,5 +3,6 @@
         <title>Categories - Category - irlndts&#39;s personal tiny tech blog</title>
         <link>http://irlndts.github.io/categories/</link>
         <description>Categories - Category - irlndts&#39;s personal tiny tech blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="http://irlndts.github.io/categories/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>kleto4kin@gmail.com (Artem Piskun)</managingEditor>
+            <webMaster>kleto4kin@gmail.com (Artem Piskun)</webMaster><atom:link href="http://irlndts.github.io/categories/" rel="self" type="application/rss+xml" /></channel>
 </rss>
