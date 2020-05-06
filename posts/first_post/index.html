@@ -5,16 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>Hello, World! - irlndts&#39;s personal tiny tech blog</title>
-        <meta name="Description" content=""><meta property="og:title" content="Hello, World!" />
-<meta property="og:description" content="irlndts is here!" />
+        <title>Split .gitconfig for domains - irlndts&#39;s personal tiny tech blog</title>
+        <meta name="Description" content="go run!"><meta property="og:title" content="Split .gitconfig for domains" />
+<meta property="og:description" content="It&rsquo;s possible to use &ndash;local and &ndash;global .gitconfig&rsquo;s.
+Sometimes you need something in between, i.e. your workspace uses GitLab on a private domain and you use GitHub for your own purposes." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://irlndts.github.io/posts/first_post/" />
 <meta property="article:published_time" content="2020-05-06T13:51:09+03:00" />
 <meta property="article:modified_time" content="2020-05-06T13:51:09+03:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Hello, World!"/>
-<meta name="twitter:description" content="irlndts is here!"/>
+<meta name="twitter:title" content="Split .gitconfig for domains"/>
+<meta name="twitter:description" content="It&rsquo;s possible to use &ndash;local and &ndash;global .gitconfig&rsquo;s.
+Sometimes you need something in between, i.e. your workspace uses GitLab on a private domain and you use GitHub for your own purposes."/>
 <meta name="application-name" content="irlndts&#39;s personal tiny tech blog">
 <meta name="apple-mobile-web-app-title" content="irlndts&#39;s personal tiny tech blog"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -22,12 +24,12 @@
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "Hello, World!",
+        "headline": "Split .gitconfig for domains",
         "inLanguage": "en",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/irlndts.github.io\/posts\/first_post\/"
-        },"genre": "posts","wordcount":  3 ,
+        },"genre": "posts","keywords": "git, go","wordcount":  136 ,
         "url": "http:\/\/irlndts.github.io\/posts\/first_post\/","datePublished": "2020-05-06T13:51:09+03:00","dateModified": "2020-05-06T13:51:09+03:00","author": {
                 "@type": "Person",
                 "name": "Author"
@@ -39,10 +41,21 @@
         <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
         <div class="header-title">
-            <a href="/" title="irlndts&#39;s personal tiny tech blog">irlndts&#39;s personal tiny tech blog</a>
+            <a href="/" title="irlndts&#39;s personal tiny tech blog"></a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
                     <i class="fas fa-adjust fa-fw"></i>
                 </a>
             </div>
@@ -52,13 +65,29 @@
     <div class="header-container">
         <div class="header-wrapper">
             <div class="header-title">
-                <a href="/" title="irlndts&#39;s personal tiny tech blog">irlndts&#39;s personal tiny tech blog</a>
+                <a href="/" title="irlndts&#39;s personal tiny tech blog"></a>
             </div>
             <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
                 <i class="fas fa-adjust fa-fw"></i>
             </a></div>
     </div>
@@ -73,10 +102,10 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animated flipInX">Hello, World!</h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animated flipInX">Split .gitconfig for domains</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Author</a></span></div>
             <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i><time datetime=2020-05-06>2020-05-06</time>&nbsp;
-                <i class="fas fa-pencil-alt fa-fw"></i>about 3 words&nbsp;
+                <i class="fas fa-pencil-alt fa-fw"></i>about 136 words&nbsp;
                 <i class="far fa-clock fa-fw"></i>1 min&nbsp;</div>
         </div><div class="details toc" id="toc-static">
                 <div class="details-summary toc-title">
@@ -84,8 +113,46 @@
                     <span><i class="details-icon fas fa-angle-right"></i></span>
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"><p>irlndts is here!</p>
-</div><div class="post-footer" id="post-footer">
+            </div><div class="content" id="content"><p>It&rsquo;s possible to use &ndash;local and &ndash;global .gitconfig&rsquo;s.</p>
+<p>Sometimes you need something in between, i.e. your workspace uses GitLab on a private domain and you use GitHub for your own purposes.</p>
+<p>Since <a href="https://github.com/blog/2360-git-2-13-has-been-released" target="_blank" rel="noopener noreffer">2.13.0</a> possible to split logic for different domains.</p>
+<p>You need a file for your GitHub (.gitconfig-github)</p>
+<pre><code>[user]
+    name = username
+    email = email@example.com
+</code></pre><p>Another file for your GitLab (.gitconfig-github)</p>
+<pre><code>[url &quot;git@gitlab.yourdomain.com:&quot;]
+    insteadOf = https://gitlab.yourdomain.com/
+[user]
+    name = John Johnson
+    email = johnjohnson@yourdomain.com
+</code></pre><p>Finally, split the configs via .gitconfig</p>
+<pre><code>[core]
+    excludesfile = /Users/username/.gitignore
+
+[includeIf &quot;gitdir:$GOPATH/src/github.com/&quot;]
+    path = /Users/username/.gitconfig-github
+
+[includeIf &quot;gitdir:$GOPATH/src/gitlab.yourdomain.com/&quot;]
+    path = /Users/username/.gitconfig-gitlab
+</code></pre><p>Also, you can do it with no additional files</p>
+<pre><code>[core]
+    excludesfile = /Users/username/.gitignore
+
+[includeIf &quot;gitdir:$GOPATH/src/github.com/&quot;]
+    [url &quot;git@github.com:&quot;]
+        insteadOf = https://github.com/
+    [user]
+        name = username
+        email = email@example.com
+
+[includeIf &quot;gitdir:$GOPATH/src/gitlab.yourdomain.com/&quot;]
+    [url &quot;git@gitlab.yourdomain.com:&quot;]
+        insteadOf = https://gitlab.yourdomain.com/
+    [user]
+        name = John Johnson
+        email = johnhognson@yourdomain.team
+</code></pre></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -102,7 +169,7 @@
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/git/">git</a>,&nbsp;<a href="/tags/go/">go</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
@@ -113,7 +180,7 @@
 </article></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.69.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.5"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
-                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2019 - 2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
         </div>
     </footer></div>
 
@@ -123,6 +190,6 @@
                 <i class="fas fa-comment fa-fw"></i>
             </a>
         </div><script type="text/javascript">
-    window.config = {"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"headerMode":{"desktop":null,"mobile":null}};
-</script><script type="text/javascript" src="https://polyfill.io/v3/polyfill.min.js?features=html5shiv%2CElement.prototype.closest%2CrequestAnimationFrame%2CCustomEvent%2CPromise%2CObject.entries%2CObject.assign%2CObject.values%2Cfetch%2CElement.prototype.after%2CArray.prototype.fill%2CIntersectionObserver%2CArray.from%2CArray.prototype.find%2CMath.sign"></script><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/object-fit-images/ofi.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+    window.config = {"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"headerMode":{"desktop":"fixed","mobile":"auto"},"search":{"highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30}};
+</script><script type="text/javascript" src="https://polyfill.io/v3/polyfill.min.js?features=html5shiv%2CElement.prototype.closest%2CrequestAnimationFrame%2CCustomEvent%2CPromise%2CObject.entries%2CObject.assign%2CObject.values%2Cfetch%2CElement.prototype.after%2CArray.prototype.fill%2CIntersectionObserver%2CArray.from%2CArray.prototype.find%2CMath.sign"></script><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/object-fit-images/ofi.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>

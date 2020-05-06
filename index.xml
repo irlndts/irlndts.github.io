@@ -2,13 +2,14 @@
     <channel>
         <title>irlndts&#39;s personal tiny tech blog</title>
         <link>http://irlndts.github.io/</link>
-        <description>irlndts&#39;s personal tiny tech blog</description>
+        <description>go run!</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 06 May 2020 13:51:09 &#43;0300</lastBuildDate><atom:link href="http://irlndts.github.io/" rel="self" type="application/rss+xml" /><item>
-    <title>Hello, World!</title>
+    <title>Split .gitconfig for domains</title>
     <link>http://irlndts.github.io/posts/first_post/</link>
     <pubDate>Wed, 06 May 2020 13:51:09 &#43;0300</pubDate>
     <author>Author</author>
     <guid>http://irlndts.github.io/posts/first_post/</guid>
-    <description><![CDATA[irlndts is here!]]></description>
+    <description><![CDATA[<p>It&rsquo;s possible to use &ndash;local and &ndash;global .gitconfig&rsquo;s.</p>
+<p>Sometimes you need something in between, i.e. your workspace uses GitLab on a private domain and you use GitHub for your own purposes.</p>]]></description>
 </item></channel>
 </rss>
