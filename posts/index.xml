@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>All Posts - irlndts&#39;s personal tiny tech blog</title>
+        <link>http://irlndts.github.io/posts/</link>
+        <description>All Posts | irlndts&#39;s personal tiny tech blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 06 May 2020 13:51:09 &#43;0300</lastBuildDate><atom:link href="http://irlndts.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Hello, World!</title>
+    <link>http://irlndts.github.io/posts/first_post/</link>
+    <pubDate>Wed, 06 May 2020 13:51:09 &#43;0300</pubDate>
+    <author>Author</author>
+    <guid>http://irlndts.github.io/posts/first_post/</guid>
+    <description><![CDATA[irlndts is here!]]></description>
+</item></channel>
+</rss>
