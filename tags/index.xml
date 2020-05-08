@@ -1,22 +1,33 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Tags - Tag - irlndts&#39;s personal tiny tech blog</title>
-        <link>http://irlndts.github.io/tags/</link>
-        <description>Tags - Tag - irlndts&#39;s personal tiny tech blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>kleto4kin@gmail.com (Artem Piskun)</managingEditor>
-            <webMaster>kleto4kin@gmail.com (Artem Piskun)</webMaster><lastBuildDate>Wed, 06 May 2020 13:51:09 &#43;0300</lastBuildDate><atom:link href="http://irlndts.github.io/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>git</title>
-    <link>http://irlndts.github.io/tags/git/</link>
-    <pubDate>Wed, 06 May 2020 13:51:09 &#43;0300</pubDate>
-    <author>Author</author>
-    <guid>http://irlndts.github.io/tags/git/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>go</title>
-    <link>http://irlndts.github.io/tags/go/</link>
-    <pubDate>Wed, 06 May 2020 13:51:09 &#43;0300</pubDate>
-    <author>Author</author>
-    <guid>http://irlndts.github.io/tags/go/</guid>
-    <description><![CDATA[]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Artem Piskun CV</title>
+    <link>https://irlndts.github.io/tags/</link>
+    <description>Recent content in Tags on Artem Piskun CV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 06 May 2020 13:51:09 +0300</lastBuildDate>
+    
+	<atom:link href="https://irlndts.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>git</title>
+      <link>https://irlndts.github.io/tags/git/</link>
+      <pubDate>Wed, 06 May 2020 13:51:09 +0300</pubDate>
+      
+      <guid>https://irlndts.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://irlndts.github.io/tags/go/</link>
+      <pubDate>Wed, 06 May 2020 13:51:09 +0300</pubDate>
+      
+      <guid>https://irlndts.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
 </rss>

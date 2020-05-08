@@ -1,16 +1,36 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>irlndts&#39;s personal tiny tech blog</title>
-        <link>http://irlndts.github.io/</link>
-        <description>go run!</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>kleto4kin@gmail.com (Artem Piskun)</managingEditor>
-            <webMaster>kleto4kin@gmail.com (Artem Piskun)</webMaster><lastBuildDate>Wed, 06 May 2020 18:02:33 &#43;0300</lastBuildDate><atom:link href="http://irlndts.github.io/" rel="self" type="application/rss+xml" /><item>
-    <title>Split .gitconfig for domains</title>
-    <link>http://irlndts.github.io/posts/first_post/</link>
-    <pubDate>Wed, 06 May 2020 13:51:09 &#43;0300</pubDate>
-    <author>Author</author>
-    <guid>http://irlndts.github.io/posts/first_post/</guid>
-    <description><![CDATA[<p>It&rsquo;s possible to use &ndash;local and &ndash;global .gitconfig&rsquo;s.</p>
-<p>Sometimes you need something in between, i.e. your workspace uses GitLab on a private domain and you use GitHub for your own purposes.</p>]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artem Piskun CV</title>
+    <link>https://irlndts.github.io/</link>
+    <description>Recent content on Artem Piskun CV</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 06 May 2020 18:02:33 +0300</lastBuildDate>
+    
+	<atom:link href="https://irlndts.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://irlndts.github.io/about/</link>
+      <pubDate>Wed, 06 May 2020 18:02:33 +0300</pubDate>
+      
+      <guid>https://irlndts.github.io/about/</guid>
+      <description>I&amp;rsquo;m a backend-developer with more than 10 years in industry.
+My CV
+Experience  New Cloud Technologies (Feb. 2020 - present) TechOps (May. 2016 - Jan. 2020) Sputnik (Apr. 2015 - May. 2016) MegaLabs (Jun. 2012 - Apr. 2015) Ru-Center (Apr. 2010 - Jun. 2012)  Education  Moscow State Aviation Technological University (2015-2011)  </description>
+    </item>
+    
+    <item>
+      <title>Split .gitconfig for domains</title>
+      <link>https://irlndts.github.io/posts/first_post/</link>
+      <pubDate>Wed, 06 May 2020 13:51:09 +0300</pubDate>
+      
+      <guid>https://irlndts.github.io/posts/first_post/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s possible to use &amp;ndash;local and &amp;ndash;global .gitconfig&amp;rsquo;s.&lt;/p&gt;
+&lt;p&gt;Sometimes you need something in between, i.e. your workspace uses GitLab on a private domain and you use GitHub for your own purposes.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
 </rss>
